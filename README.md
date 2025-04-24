@@ -47,7 +47,7 @@ A **Java-based** Employee Management System built using **IntelliJ IDEA** and **
 git clone https://github.com/CharuSingla/employee-management-system.git
 cd employee-management-system
 
-2. Set up MySQL
+### 2. Set up MySQL
 Create the database and table:
 
 CREATE DATABASE employee_db;
@@ -60,21 +60,19 @@ CREATE TABLE employees (
     email VARCHAR(100)
 );
 
-3. Update database credentials in code
+### 3. Update database credentials in code
 Edit the connection string in your Java file:
 
 String url = "jdbc:mysql://localhost:3306/employee_db";
 String user = "yourUsername";
 String password = "yourPassword";
 
-4. Run the project
+### 4. Run the project
 Open the project in IntelliJ IDEA
-
 Make sure MySQL server is running
-
 Run the Main.java file
 
-## Example Operations:
+### Example Operations:
 1. Add Employee
 2. View All Employees
 3. Update Employee
