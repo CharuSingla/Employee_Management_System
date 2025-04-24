@@ -42,7 +42,6 @@ A **Java-based** Employee Management System built using **IntelliJ IDEA** and **
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/CharuSingla/employee-management-system.git
 cd employee-management-system
